@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main , .footer{
+    background-image: url("background_body.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.header{
+    text-align: center;
+    background-image: url("background_header.jpg");
+    background-position: center;
+   
+
+}
+.header .name-heading{
+
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:#FFD700;
+    text-shadow: 2px 3px 5px black;
+
+}
+.header .name-heading::selection{
+
+    color: whitesmoke;
+    background: black;
+}
+.figure img{
+    width:300px ;
+    height: 400px;
+}
+
+
+.figure{
+    width: 310px;
+    border: 2px solid black;
+    text-align: center;
+   position: relative;
+   left: 600px;
+
+   background: silver;
+   font-size: 1.3rem;
+   font-style: italic;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.figure figcaption{
+    text-shadow: 2px 2px 5px black;
+
+}
+.figure figcaption::selection{
+    color: black;
+    background: whitesmoke;
+}
+
+.figure:hover{
+       color: purple;
+       background:#FFC966;
+      transform:  scale(0.9);
+      filter: brightness(1.2);
+}
+.figure figcaption::before{
+    content: "\0022";
+}
+.figure figcaption::after{
+    content: "\0022";
+}
+.heading2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic ;
+    font-weight: 900;
+   font-size: 2rem;
+   color:purple ;
+   text-shadow: 3px 3px 5px black;
+   border-radius: 5px;margin: 5px;
+   background:#FFC966; 
+     display: inline-block;
+     padding: 3px;
+}
+.heading2:hover{
+   text-decoration: underline;
+     
+}
+.heading2::selection{
+     color: whitesmoke;
+    background: black;
+}
+.Weapon img{
+    width:300px ;
+    height: 400px;
+}
+.Weapon{
+    width: 310px;
+    border: 2px solid black;
+    text-align: center;
+   position: relative;
+   left: 600px;
+
+   background: silver;
+   font-size: 1.3rem;
+   font-style: italic;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Weapon:hover{
+       color: purple;
+       background:#FFC966;
+      transform:  scale(0.9);
+      filter: brightness(1.2);
+}
+.Weapon figcaption{
+    text-shadow: 2px 2px 5px black;
+
+}
+.Weapon figcaption::selection{
+    color: black;
+    background: whitesmoke;
+}
+.Weapon figcaption::before{
+    content: "\0022";
+}
+.Weapon figcaption::after{
+    content: "\0022";
+}
+
+.heading2 ~ p{
+    column-width: 400px;
+    column-gap: 15px;
+    column-rule: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;
+   font-size: 1.1rem;
+   color: whitesmoke;
+    line-height: 19px;
+    word-spacing: 5px;
+
+    background: rgb(95, 82, 95);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+.heading2 ~ p::selection{
+
+    color: silver;
+    background-color: black;
+}
